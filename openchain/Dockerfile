@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:1.1-sdk-projectjson
+FROM microsoft/dotnet:1.1.2-sdk-nanoserver
 
 RUN mkdir -p /tmp/openchain \
     && mkdir -p /openchain
